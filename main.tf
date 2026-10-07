@@ -108,7 +108,8 @@ resource "azurerm_linux_virtual_machine" "vm" {
 
   admin_ssh_key {
     username   = "azureuser"
-    public_key = "COLE_AQUI_SUA_CHAVE_PUBLICA"
+    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCR+fgF2Zk1s8TLEvhZPsVvgg3A/a6QmyReL3o6nzioFjBSP0UGlG9cL2MJ1RwqwxkGg8bD8qGNgIz26vZf3vcZuCIF25gwBEmKv3OfyazND/CtSkPfTV7I+A9nPeZiAxAsTFX7PdverBHj8mZxzSIQ4uBfsgDJPKKv2lyruqMWihK0sk1jEZ/EQyGCDpUgHofbuo3BoRpEYMXEyZjmjFln8se76K5nhkIbABE1ilHcwftfD5mmdH+e5TePf85clvK7Vhus9zTkpgLM3cXdAqG4nyugNYSuxnxNj1lrYH8UGHjrckuaYOQ3G38MJyx0zDIXe0SBkOB0AqikVx7TMUvIBG3y5EAMjrm2nrfCSqymh1kdMzDyYW9h39NEZAAoOJ608IgJ++cbh7JU2bpr8FuPxxcIRMhTPodTrmEJ9t4XCZCV8Orja44xecNjJIwdN31jyvbVEGyljf4W+2Kz2n2JX8GVjoMZWCvfMbg/F2XngdDPSgaR/v65bKlzCVpHVpk= imported-openssh-key
+ "
   }
 
   os_disk {
